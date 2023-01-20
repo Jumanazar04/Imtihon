@@ -1,0 +1,661 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+   margin: auto;
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'Fredoka One', cursive;
+    src: url(../fonts/FredokaOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'Hind Madurai';
+    src: url(../fonts/HindMadurai-Medium.ttf);
+}
+.header {
+    width: 1600px;
+    height: 862px;
+    background: #F2CEDA;
+    position: relative;
+}
+.header-div li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.header-div  {
+   text-decoration: none;
+   color: #150101;
+}
+.qqq {
+    color: red;
+}
+.header-div ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    left: 300px;
+}
+.header-div {
+    width: 1125px;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    left: 245px;
+    top:20px;
+}
+.header-div img {
+    position: absolute;
+    left: 0;
+}
+.header-btn {
+    position: absolute;
+    right: 0;
+    width: 165px;
+    height: 49px;
+    background: #D23166;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+}
+.header-span {
+    position: absolute;
+    top: 285px;
+    left: 254px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    font-family: 'Fredoka One', cursive;
+    position: absolute;
+    width: 670px;
+    height: 130px;
+    left: 254px;
+    top: 307px;
+    font-weight: 600;
+    font-size: 57px;
+    line-height: 120.5%;
+}
+.header-text {
+    font-weight: 400;
+    font-family: 'Hind Madurai';
+    font-size: 18px;
+    line-height: 27px;
+    position: absolute;
+    width: 523px;
+    height: 78px;
+    left: 254px;
+    top: 472px;
+}
+.btn2 {
+    width: 165px;
+    height: 49px;
+    background: #D23166;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    left: 255px;
+    top: 600px;
+    position: absolute;
+}
+.headre-img {
+    position: absolute;
+    width: 894.68px;
+    height: 742.36px;
+    left: 839px;
+    top: 126px;
+    background: url(eep88j2SDJ-removebg-preview.png);
+}
+.h1-span {
+    color: red;
+}
+.section-one {
+    margin-left: 252px;
+    margin-top: 100px;
+    width: 1117px;
+    height: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.section-child {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+}
+.section-child h3 {
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 10px;
+    line-height: 28px;
+ }
+ .section-one-text {
+   font-family: 'Hind Madurai';
+    opacity: 0.6;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 15px;
+    line-height: 19px;
+    width: 230px;
+    height: 35px;
+    padding-left: 45px;
+ }
+ .section-child img {
+    padding-top: 33px;
+ }
+ .qwer {
+    padding-top: 22px;
+ }
+ .section-two {
+    position: relative;
+    width: 1600px;
+    height: 544.5px;
+    background: #F8EDF0;
+    margin-top: 20px;
+ }
+ .section-two h2 {
+    position: absolute;
+    font-family: 'Hind Madurai';  
+    width: 349px;
+    height: 98.27px;
+    left: 253px;
+    top: 141.59px;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+ }
+ .section-two p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    width: 442px;
+    height: 58.16px;
+    left: 252px;
+    top: 250.9px;
+    opacity: 0.6 ;
+ }
+ .section-two button {
+    width: 165px;
+    height: 49px;
+    background: #D23166;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    position: absolute;
+    left: 252px;
+    top: 350px;
+ }
+ .section-two img {
+    position: absolute;
+    left: 768px;
+    width: 655px;
+    bottom: -40px;
+ }
+ .section-three {
+    width: 1160px;
+    height: 1506px;
+    margin-left: 249px;
+    margin-top: 130px;
+
+ }
+ .section-three h2 {
+    width: 238px;
+    height: 61px;
+    margin: auto;
+    font-family: 'Hind Madurai';
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+ }
+ .section-three-ul {
+   font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+ }
+ .section-three-ul li {
+    display: inline-block;
+    padding: 20px;
+ }
+ .section-three-ul a {
+   font-family: 'Roboto', sans-serif;
+    color: #000000;
+    opacity: 0.6;
+ }
+ #ahref {
+    color: black;
+ }
+ .section1 {
+    width: 1300px;
+    height: 1660px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 50px;
+ }
+ .section1-child {
+    width: 580px;
+    height: 415px;
+ }
+ .section1-child h3 {
+    font-family: 'Hind Madurai';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    margin-top: 50px;
+    padding-bottom: 10px;
+ }
+ .cllass {
+    text-align: right;
+ }
+ .section1-child p {
+    width: 454px;
+    height: 67px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-bottom: 20px;
+ }
+ .cllass p {
+    text-align: right;
+    margin-left: 125px;
+    margin-bottom: 20px;
+ }
+ .section1-child b {
+    font-family: 'Hind Madurai';
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+ }
+ .section1-child span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+ }
+ .section1-child button {
+    width: 165px;
+    height: 49px;
+    background: #D23166;
+    border-radius: 5px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+ }
+ .asde {
+    border-radius: 50%;
+ }
+ .asd {
+    border-radius: 50px;
+ }
+ .position {
+    position: relative;
+ }
+ .position h3 {
+    position: absolute;
+    top: px;
+    left: 80px;
+ }
+ .one-img {
+   position: absolute;
+   top: 45px;
+ }
+ .position p {
+   position: absolute;
+   top: 130px;
+   font-family: 'Roboto', sans-serif; 
+   
+ }
+ .imgg {
+   position: absolute;
+   top: 230px;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -ms-flex-pack: distribute;
+       justify-content: space-around;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   width: 300px;
+   height: 70px;
+ }
+ #sppan {
+   position: absolute;
+   top: 85px;
+   left: 80px;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 14px;
+   font-family: 'Roboto', sans-serif;
+ }
+ .article {
+   width: 1600px;
+   height: 678px;
+   background: #bc7286;
+   margin-top: 480px;
+   position: relative;
+ }
+ .article-img {
+   position: absolute;
+   left: 150px;
+   border-radius: 30px;
+   top: 90px;
+ }
+ .article h4 {
+   font-family: 'Roboto', sans-serif;
+   position: absolute;
+   font-weight: 500;
+   font-size: 44.2px;
+   line-height: 52px;
+   top: 129px;
+   left: 650px;
+ }
+ .article p {
+   font-family: 'Roboto', sans-serif;
+   position: absolute;
+   width: 607px;
+   height: 60px;
+   left: 659px;
+   top: 200px;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+ }
+ .article1 {
+   position: absolute;
+   position: relative;
+   left: 659px;
+   top: 300px;
+   width: 200px;
+   height: 130px;
+ }
+ .block {   
+   width: 30px;
+   height: 30px;
+   margin-bottom: 15px;
+   background-color: #fff;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+ }
+.article1 span {
+   width: 166px;
+   height: 26px;
+   font-family: 'Roboto';
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 26px;
+   color: #000000;
+   }
+.q1q {
+   position: absolute;
+   left: 35px;
+   top: 1px;
+}   
+.q2q {
+   position: absolute;
+   left: 35px;
+   top: 35%;
+}
+.q3q {
+   position: absolute;
+   left: 35px;
+   bottom: 10px;
+}
+.iimg {
+   position: absolute;
+   top: 450px;
+   left: 650px;
+}
+.immg {
+   position: absolute;
+   top: 445px;
+   left: 880px;
+}
+.article2 {
+   margin-top: 200px;
+   width: 1600px;
+   height: 565px;
+   text-align: center;
+
+}
+.form {
+   width: 637px;
+   height: 284px;
+   margin-left: 482px;
+   margin-top: 50px;
+}
+.input1 {
+   width: 303px;
+   margin-right: 20px;
+   height: 74px;
+}
+.input2 {
+   width: 303px;
+   height: 74px;
+}
+.input3 {
+   width: 500px;
+   margin-top: 20px;
+   height: 74px;
+}
+.form-btn {
+   width: 130px;
+   height: 74px;
+   background: #D64374;
+   border-radius: 5px;
+   border: none ;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 23px;
+   color: #FFFFFF;
+}
+.article2 h3 {
+   width: 522px;
+   height: 123px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 44px;
+   line-height: 52px;
+   text-align: center ;
+   margin-left: 560px;
+}
+input {
+   border: 1px solid #FFA3A3;
+   border-radius: 5px;
+   font-family: 'Roboto', sans-serif;
+}
+footer {
+   position: relative;
+   width: 1600px;
+   height: 381px;
+   background: #0A0808;
+}
+.rasm {
+   position: absolute;
+   left: 245px ;
+   top: 68px;
+}
+.footer-text {
+   position: absolute;
+   width: 207px;
+   height: 47px;
+   left: 252px;
+   top: 158px;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 12px;
+   line-height: 17px;
+   letter-spacing: 0.01em;
+   color: #FFFFFF;
+   opacity: 0.7;
+}
+.pp {
+   position: absolute;
+   width: 56px;
+   height: 14px;
+   left: 252px;
+   top: 250px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 14px;
+   color: #FFFFFF;
+   opacity: 0.6;
+}
+.ttt {
+   position: absolute;
+   left: 252px;
+   top: 280px;
+}
+.qaz p {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 14px;
+   color: #FFFFFF;
+   opacity: 0.6;
+}
+.qaz {
+   position: absolute;
+   top: 143px;
+   left: 496px;
+}
+.wer {
+   position: absolute;
+   top: 150px;
+   left: 697px ;
+}
+.wer p {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 12px;
+   line-height: 14px;
+   color: #FFFFFF;
+   opacity: 0.6;
+}
+.opcity {
+   width: 390px;
+   position: absolute;
+   top: 136px;
+   left: 956px;
+   position: relative;
+}
+.opcity p {
+   position: absolute;
+   top: 10px;
+   color: #fff;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   opacity: 0.6;
+}
+.opcity input {
+   position: absolute;
+   top: 40px;
+   width: 388px;
+   height: 55px;
+   opacity: 0.5;
+   border: 2px solid #D64374;
+   border-radius: 5px;
+   background-color: #0A0808;
+}
+.opcity button {
+   position: absolute;
+   font-family: 'Roboto', sans-serif;
+   top: 40px;
+   left: 265px;
+   width: 125px;
+   height: 56px;
+   border: none;
+   background: #D23166;
+   border-radius: 5px;
+   font-weight: 500;
+   font-size: 20px;
+   color: #fff;
+   line-height: 23px;
+}
+.tamom {
+   position: absolute;
+   top: 120px;
+}
